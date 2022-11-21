@@ -1,3 +1,4 @@
-export default function add2(n: number): number {
-  return n + 2;
-}
+export const prop =
+  <T>(prop: keyof T) =>
+  (item: T) =>
+    item[prop];
