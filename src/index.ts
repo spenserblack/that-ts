@@ -13,6 +13,6 @@ export const fn = <T, P extends keyof T=keyof T, V extends T[P]=T[P]>(
     if (!(typeof fn === "function")) {
       throw new TypeError(`'${String(fnName)}' must be a callable`);
     }
-    return fn(...args);
+    return fn.call(item, ...args);
   };
 };

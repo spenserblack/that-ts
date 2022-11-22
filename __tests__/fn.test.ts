@@ -11,3 +11,8 @@ test("It returns a callable calls the named method", () => {
   const callable = fn<Obj>('add', 1, 2);
   expect(callable(obj)).toBe(3);
 });
+
+test("It binds the callable to its class", () => {
+  const callable = fn<number>('toString');
+  expect(callable(1)).toBe('1');
+});
