@@ -7,7 +7,11 @@ export type CallableProperty<P extends string | number | symbol, Args extends an
   [property in P]: (...args: Args) => unknown;
 };
 
-export const fn = <T extends CallableProperty<P, Args>, P extends keyof T, Args extends any[]>(
+export const fn = <
+  T extends CallableProperty<P, Args>,
+  P extends keyof T,
+  Args extends any[],
+>(
   fn: P,
   ...args: Parameters<T[P]>
 ) => {
