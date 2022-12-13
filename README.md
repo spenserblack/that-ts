@@ -5,7 +5,7 @@ A small utility for mapping properties in JavaScript
 ## Usage
 
 ```typescript
-import { prop as p, fn } from "@spenserblack/that-ts";
+import { prop as p, fn } from "@spenserblack/that";
 
 // Mapping to properties
 [foo, bar, baz].map(p("foo")); // Same as .map((item) => item.prop) or .map(({ prop }) => prop)
