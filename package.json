@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "A small shortcut for making property-mapping functions",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "prepublishOnly": "npm run build",
     "build": "tsc",
