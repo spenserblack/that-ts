@@ -4,6 +4,7 @@
   "description": "A small shortcut for making property-mapping functions",
   "main": "dist/index.js",
   "scripts": {
+    "prepublishOnly": "npm run build",
     "build": "tsc",
     "format": "prettier --write .",
     "format-check": "prettier --check .",
