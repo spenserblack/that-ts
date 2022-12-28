@@ -1,5 +1,8 @@
 # That
 
+[![npm (scoped)](https://img.shields.io/npm/v/@spenserblack/that)](https://www.npmjs.com/package/@spenserblack/that)
+[![CI](https://github.com/spenserblack/that-ts/actions/workflows/ci.yml/badge.svg)](https://github.com/spenserblack/that-ts/actions/workflows/ci.yml)
+
 A small utility for mapping properties in JavaScript
 
 ## Usage
