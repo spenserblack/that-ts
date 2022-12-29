@@ -9,12 +9,6 @@
             "extensions": ["EditorConfig.EditorConfig", "esbenp.prettier-vscode"]
         }
     },
-    "portsAttributes": {
-        "5173": {
-            "label": "Site (dev)",
-            "onAutoForward": "notify"
-        }
-    },
     "postCreateCommand": ".devcontainer/postCreate.sh",
     "remoteUser": "node"
 }
